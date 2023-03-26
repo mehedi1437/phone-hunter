@@ -8,15 +8,15 @@
   </head>
   <body>
 <header>
-    <h1 class="text-center text-danger">Welcome to my Phone Hunter</h1>
+    <h1 class="text-center text-danger my-4">Welcome to my Phone Hunter</h1>
 </header>
 
 <main>
     <section>
-        <div class="mb-3 w-50 ">
+        <div class="mb-3 w-50 ms-5 ">
             
             <input id="search-field" type="text" class="form-control " id="exampleFormControlInput1" placeholder="search your phones">
-            <button id="btn-search" class="btn btn-primary">search</button>
+            <button id="btn-search" class="btn btn-primary mt-3">search</button>
         </div>
     </section>
 
@@ -29,6 +29,9 @@
         <div id="phone-container" class="row row-cols-1 row-cols-md-4 g-4 container ">
             
               
+            </div>
+            <div id="no-found-message" class="d-none ">
+                 <h3 class="text-warning ms-5 mt-3">No phones Found</h3>
             </div>
             
       </section>
